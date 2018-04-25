@@ -26,5 +26,7 @@ trap cleanup INT QUIT
 
 echo "I: Go to: http://localhost:$port/"
 echo "I: Hit Control+C to stop"
+echo "or"
+echo "open public/index.html in your browser." 
 echo
 $lighttpd -f "$conffile" -D
