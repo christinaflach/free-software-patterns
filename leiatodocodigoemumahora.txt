@@ -1,0 +1,21 @@
+Leia all the Code in One Hour
+Intenção: Avaliar o estado de um sistema de software por meio de uma breve, mas intensiva revisão de código.
+Problema
+Como você pode obter uma primeira impressão sobre a qualidade do código-fonte?
+Esse problema é difícil porque:
+    • A qualidade do código-fonte varia bastante, dependendo das pessoas envolvidas no desenvolvimento e manutenção do sistema.
+    • O sistema é grande, portanto, há muitos dados para inspecionar e ter uma avaliação precisa.
+    • Você não está familiarizado com o sistema de software, portanto não sabe como filtrar o que é relevante
+No entanto, resolver este problema é viável porque:
+    • Você tem experiência razoável com a linguagem de implementação que está sendo usada, assim você pode reconhecer idiomas de programação e code smells.
+    • Seu projeto de reengenharia tem um objetivo claro, para que você possa avaliar o tipo de qualidade de código necessário para atingir esse objetivo.
+Solução
+
+	Conceda a você mesmo uma quantidade razoavelmente curta de tempo de estudo (ou seja, aproximadamente uma hora) para ler o código-fonte. Certifique-se de não ser incomodado (desconecte o telefone e desconecte seu e-mail) e tome notas com moderação para maximizar o contato com o código.
+Após esta sessão de leitura, faça um breve relatório sobre suas descobertas, incluindo:
+    • uma avaliação geral de se a reengenharia parece viável e por que (não);
+    • entidades que parecem importantes (isto é, classes, packages);
+    • estilos de codificação suspeitos descobertos (ou seja, "code smells");
+    •  partes que devem ser investigadas (isto é, testes).
+Mantenha este relatório curto e nomeie as entidades como elas são mencionadas no código-fonte.
+
