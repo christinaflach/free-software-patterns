@@ -26,7 +26,7 @@ public/%: template/%
 	$(progress) ln $< $@
 
 %.html.in: %.markdown.in
-	$(helper) pandoc --smart -f markdown -t html -o $@ $<
+	$(helper) pandoc -f markdown+smart -t html -o $@ $<
 
 %.html: %.html.in ./script/apply-template.rb template/layout.html
 	$(progress) ruby ./script/apply-template.rb template/layout.html $< > $@
